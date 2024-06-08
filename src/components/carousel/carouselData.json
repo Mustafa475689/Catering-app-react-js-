@@ -1,0 +1,21 @@
+
+{
+   "slides": [
+     {
+        "src" : "../src/assets/biryani.png",
+        "alt" : "image 1 for slider"
+     },
+ 
+     {
+        "src" : "../src/assets/kmorma.jpg",
+        "alt" : "image 2 for slider"
+     },
+ 
+     {
+        "src" : "../src/assets/nihari.jpg",
+        "alt" : "image 3 for slider"
+     }
+ 
+     
+   ]
+ }

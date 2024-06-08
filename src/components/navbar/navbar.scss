@@ -1,0 +1,87 @@
+
+.navbar {
+    width: 100%;
+    padding: 12px 100px;
+    color: wheat;
+    position: fixed;
+    cursor: pointer;
+
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        .right {
+            
+          img {
+            width: 80px;
+          }
+
+        }
+
+        .middle {
+           
+            ul {
+              display: flex;
+              list-style: none;
+              gap: 18px;
+              font-size: 30px;
+              
+
+              li {
+
+                .link {
+                  text-decoration: none;
+                  color: wheat;
+                  font-family: "Caveat", cursive;
+                }
+                
+                  .active {
+                    padding-bottom: 2px;
+                    border-bottom: 4px  solid orangered;
+                    border-radius: 6px;
+                    color: white;
+                }
+              }
+
+              }
+          }
+        
+
+        .left {
+            display: flex;
+            gap: 36px;
+            align-items: center;
+
+            .cart {
+                font-size: 38px;
+
+                .link {
+                  color: wheat;
+                }
+                
+                .active {
+                  color: white;
+                }
+                
+            }
+
+            button {
+              border: 1px solid orangered;  
+              background-color: orangered;
+              color: wheat;
+              font-family: "Caveat", cursive;
+              font-size: 30px;
+              padding: 4px 6px;
+              border-radius: 10px;
+              transition: 0.5s ease;
+              cursor: pointer;
+
+              &:hover {
+                border-color: rgb(255, 0, 0);
+                background-color: rgb(255, 0, 0);
+              }
+            }
+        }
+    }
+}
